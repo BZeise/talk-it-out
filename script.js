@@ -82,5 +82,7 @@ console.log('majorKey is' + majorKey);
 console.log('majorKey is' + majorKey);
 console.log(majorKey);
 // 14. Create an index.html file, link in this JavaScript file. Load in the browser and check the value from Step 13.
+// Okay, done!
 
 // 15. Your answer should be a string value that equals 7. Is that what you got?
+// yes!  Woo!
