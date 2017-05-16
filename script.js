@@ -12,7 +12,7 @@ if (majorKey >= 53) {
 
 // 3. Add a string with a value of 11 to `majorKey`
 majorKey += '11';
-console.log('majorKey is' + majorKey);
+console.log('majorKey is ' + majorKey);
 
 // 4. Create an array named `keyChars`, then loop through `majorKey` using the
 // `charAt` method and set `keyChars[i]` to each value
@@ -39,7 +39,7 @@ console.log(reversedKeyChars);
 majorKey = parseInt(majorKey);
 reversedKeyChars = parseInt(reversedKeyChars);
 console.log(reversedKeyChars);
-console.log('majorKey is' + majorKey);
+console.log('majorKey is ' + majorKey);
 
 // ******* SWITCH PROGRAMMERS *******
 
@@ -62,7 +62,7 @@ while(count > 0){
   majorKey++;
   count--;
 }
-console.log('majorKey is' + majorKey);
+console.log('majorKey is ' + majorKey);
 // 11. Create a function that accepts an argument `val`. The function should convert `val` to a string,
 // then drop the first character off the string, but only if there
 // is more than one character in the string. Return `val` and set `majorKey` to the returned value.
@@ -71,14 +71,15 @@ function convertToStringAndMaybeDrop(val){
   if(val.length > 1){
     val = val.substring(1, val.length);
   }
+  //majorKey = val;
   return val;
 }
-console.log('majorKey is' + majorKey);
+console.log('majorKey is ' + majorKey);
 
 // 12. Call the function.
 majorKey = convertToStringAndMaybeDrop(majorKey);
 // 13. Console log `majorKey`.
-console.log('majorKey is' + majorKey);
+console.log('majorKey is ' + majorKey);
 console.log(majorKey);
 // 14. Create an index.html file, link in this JavaScript file. Load in the browser and check the value from Step 13.
 // Okay, done!
