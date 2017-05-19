@@ -1,3 +1,5 @@
+// benign edit for git testing
+
 // 1. Start with the number 42 and set that equal to the variable `majorKey`
 var majorKey = 42;
 
